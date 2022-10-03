@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <header>
+        <img src="website-647013_1920.jpg" alt="banniere" width="800pi" height="200pi" >
+        <h1>Le Hellfest</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <fieldset>
+        <legend>Infos personnelles</legend>
+
+    <form method="POST" action="monformulaire.php">
+        <label for="nom">Nom: <span>*</span></label>
+        <input type="text" name="nom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="nom"><br>
+        <label for="mail">E-mail: <span>*</span></label>
+        <input type="email" name="mail" placeholder="Ex: monmail@hotmail.fr" id="mail"><br>
+        <label for="champs">Laisser un commentaire:</label><br>
+        <textarea name="champs" placeholder="j'adore ce que vous faites !" cols="70" rows="10"></textarea>
+        <label for="copie">Envoi d'une copie</label>
+        <input type="checkbox" name="copie" checked/><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Reset">
+
+    </body>
+    <footer>
+        <ul>
+            <li><a href="https://www.hellfest.fr/">hellfest2023</a></li>
+            <li><a href="https://www.emp-online.fr/nouveautes/">emp</a></li>
+            <li><a href="https://www.skyscanner.fr/actualites/les-12-meilleurs-festivals-en-france">festivals</a></li>
+        </ul>
+    </footer>
+</html>
